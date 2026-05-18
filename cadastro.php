@@ -50,4 +50,6 @@ $nome = $_POST['nome'];
     <input type="number" name="estoque" placeholder="Estoque" required>
     <br><br>
 
+      <button type="submit">Cadastrar.</button>
+
 </form>
