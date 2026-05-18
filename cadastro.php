@@ -15,6 +15,15 @@ $nome = $_POST['nome'];
     (:nome, :fabricante, :preco, :estoque)";
 
     $stmt = $conexao->prepare($sql); 
+
+     $stmt->execute([
+
+        ':nome' => $nome,
+        ':fabricante' => $fabricante,
+        ':preco' => $preco,
+        ':estoque' => $estoque
+
+    ]);
 }
 
 ?>
