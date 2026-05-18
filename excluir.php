@@ -15,5 +15,16 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         ':id' => $id
 
     ]);
+
+     if($stmt->rowCount() > 0){
+
+        echo "Produto excluído com sucesso!";
+
+    } else {
+
+        echo "Produto não encontrado.";
+
+    }
+
 }
 ?>
