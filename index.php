@@ -13,3 +13,13 @@ $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <h2>Lista dos Produtos</h2>
+
+<?php
+
+foreach($produtos as $produto){
+
+    
+
+}
+
+?>
