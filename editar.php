@@ -28,7 +28,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['nome'])) {
 
     $sql = "UPDATE produtos SET
 
- nome = :nome,
+    nome = :nome,
     fabricante = :fabricante,
     preco = :preco,
     estoque = :estoque
