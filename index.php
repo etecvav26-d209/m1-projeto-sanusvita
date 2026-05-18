@@ -7,4 +7,7 @@ $sql = "SELECT * FROM produtos ORDER BY id DESC";
 $stmt = $conexao->prepare($sql);
 
 $stmt->execute();
+
+$produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 ?>
