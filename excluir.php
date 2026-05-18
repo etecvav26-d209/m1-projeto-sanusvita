@@ -9,5 +9,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
   $sql = "DELETE FROM produtos WHERE id = :id";
 
     $stmt = $conexao->prepare($sql);
+
+     $stmt->execute([
+
+        ':id' => $id
+
+    ]);
 }
 ?>
