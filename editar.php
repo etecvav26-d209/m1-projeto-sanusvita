@@ -18,4 +18,6 @@ $stmt->execute([
 
 ]);
 
+$produto = $stmt->fetch(PDO::FETCH_ASSOC);
+
 ?>
