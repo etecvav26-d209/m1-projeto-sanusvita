@@ -11,3 +11,5 @@ $stmt->execute();
 $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
+
+<h2>Lista dos Produtos</h2>
