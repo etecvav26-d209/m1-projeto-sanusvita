@@ -20,4 +20,7 @@ $stmt->execute([
 
 $produto = $stmt->fetch(PDO::FETCH_ASSOC);
 
+if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['nome'])) {
+    
+}
 ?>
