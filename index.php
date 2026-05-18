@@ -31,6 +31,23 @@ foreach($produtos as $produto){
     echo "Estoque: " . $produto['estoque'] . "<br>";
 ?>
 
+<form action="editar.php" method="POST">
+
+    <input
+    type="hidden"
+    name="id"
+    value="<?php echo $produto['id']; ?>">
+
+    <button type="submit">
+
+        Editar
+
+    </button>
+
+</form>
+
+<br>
+
 <form action="excluir.php" method="POST">
 
     <input
