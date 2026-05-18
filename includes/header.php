@@ -16,3 +16,25 @@
     href="assets/css/style.css">
 
 </head>
+
+<body>
+
+<header>
+
+    <h1>Farm SanusVita</h1>
+
+    <nav>
+
+        <a href="index.php">
+            Produtos
+        </a>
+
+        <a href="cadastro.php">
+            Cadastrar
+        </a>
+
+    </nav>
+
+</header>
+
+<main>
