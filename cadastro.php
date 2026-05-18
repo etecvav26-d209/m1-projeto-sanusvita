@@ -33,3 +33,9 @@ $nome = $_POST['nome'];
 }
 
 ?>
+
+<h2>Cadastrar Produto</h2>
+
+<form method="POST">
+
+</form>
