@@ -67,6 +67,8 @@ foreach($produtos as $produto){
 
 }
 
+include 'includes/footer.php';
+
 ?>
 
 
