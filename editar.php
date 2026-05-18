@@ -98,3 +98,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['nome'])) {
        <button type="submit"> Salvar </button>
 
 </form>
+
+<?php
+
+include 'includes/footer.php';
+
+?>
