@@ -29,9 +29,6 @@ foreach($produtos as $produto){
     echo "Preço: R$ " . $produto['preco'] . "<br>";
 
     echo "Estoque: " . $produto['estoque'] . "<br>";
-
-}
-
 ?>
 
 <form action="excluir.php" method="POST">
@@ -46,3 +43,11 @@ foreach($produtos as $produto){
     </button>
 
 </form>
+
+<?php
+
+}
+
+?>
+
+
