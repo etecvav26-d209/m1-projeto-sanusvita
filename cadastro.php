@@ -9,7 +9,12 @@ $nome = $_POST['nome'];
     $preco = $_POST['preco'];
     $estoque = $_POST['estoque'];
 
-   
+  $sql = "INSERT INTO produtos
+    (nome, fabricante, preco, estoque)
+    VALUES
+    (:nome, :fabricante, :preco, :estoque)";
+
+    $stmt = $conexao->prepare($sql); 
 }
 
 ?>
