@@ -50,3 +50,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['nome'])) {
     echo "Produto atualizado com sucesso!";
 }
 ?>
+
+<h2>Editor de Produto</h2>
+
+<form method="POST">
+
+</form>
