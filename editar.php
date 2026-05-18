@@ -34,6 +34,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['nome'])) {
     estoque = :estoque
 
     WHERE id = :id";
-    
+
+     $stmt = $conexao->prepare($sql);
 }
 ?>
