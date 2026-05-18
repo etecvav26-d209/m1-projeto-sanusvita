@@ -18,7 +18,17 @@ $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 foreach($produtos as $produto){
 
-    
+        echo "<hr>";
+
+    echo "ID: " . $produto['id'] . "<br>";
+
+    echo "Nome: " . $produto['nome'] . "<br>";
+
+    echo "Fabricante: " . $produto['fabricante'] . "<br>";
+
+    echo "Preço: R$ " . $produto['preco'] . "<br>";
+
+    echo "Estoque: " . $produto['estoque'] . "<br>";
 
 }
 
