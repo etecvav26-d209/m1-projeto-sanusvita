@@ -21,6 +21,9 @@ $stmt->execute([
 $produto = $stmt->fetch(PDO::FETCH_ASSOC);
 
 if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['nome'])) {
-    
+       $nome = $_POST['nome'];
+    $fabricante = $_POST['fabricante'];
+    $preco = $_POST['preco'];
+    $estoque = $_POST['estoque'];
 }
 ?>
