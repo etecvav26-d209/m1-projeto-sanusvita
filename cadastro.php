@@ -24,6 +24,11 @@ $nome = $_POST['nome'];
         ':estoque' => $estoque
 
     ]);
+
+    if ($conexao->lastInsertId()) {
+
+    echo "Produto cadastrado com sucesso! ID: " . $conexao->lastInsertId();
+
 }
 
 ?>
