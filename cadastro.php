@@ -38,4 +38,16 @@ $nome = $_POST['nome'];
 
 <form method="POST">
 
+<input type="text" name="nome" placeholder="Nome do produto" required>
+    <br><br>
+
+    <input type="text" name="fabricante" placeholder="Fabricante" required>
+    <br><br>
+
+    <input type="number" step="0.01" name="preco" placeholder="Preço" required>
+    <br><br>
+
+    <input type="number" name="estoque" placeholder="Estoque" required>
+    <br><br>
+
 </form>
