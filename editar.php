@@ -36,5 +36,16 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['nome'])) {
     WHERE id = :id";
 
      $stmt = $conexao->prepare($sql);
+
+     $stmt->execute([
+
+        ':nome' => $nome,
+        ':fabricante' => $fabricante,
+        ':preco' => $preco,
+        ':estoque' => $estoque,
+        ':id' => $id
+
+    ]);
+    
 }
 ?>
