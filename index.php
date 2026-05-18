@@ -33,3 +33,16 @@ foreach($produtos as $produto){
 }
 
 ?>
+
+<form action="excluir.php" method="POST">
+
+    <input
+    type="hidden"
+    name="id"
+    value="<?php echo $produto['id']; ?>">
+
+    <button type="submit">
+        Excluir
+    </button>
+
+</form>
