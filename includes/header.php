@@ -21,7 +21,7 @@
 
 <header>
 
-    <h1>Farm SanusVita</h1>
+    <h1>Bem-vindo(a) a farmácia SanusVita</h1>
 
     <nav>
 
