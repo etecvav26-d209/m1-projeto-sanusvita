@@ -55,3 +55,9 @@ $nome = $_POST['nome'];
       <button type="submit">Cadastrar.</button>
 
 </form>
+
+<?php
+
+include 'includes/footer.php';
+
+?>
