@@ -12,3 +12,16 @@ body{
     display: flex; 
     flex-direction: column; 
 }
+
+header{ 
+    background-color: #ffffff; 
+    padding: 30px 20px; 
+    text-align: center; 
+    border-bottom: 4px solid #c8a2ff;
+ } 
+ 
+ header h1{ 
+    color: #8e44ad; 
+    margin-bottom: 20px; 
+    font-size: 32px; 
+}
