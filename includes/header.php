@@ -21,7 +21,7 @@
 
 <header>
 
-<img src="img/borboleta.jpeg" alt="Logo" class="logo">
+<img src="" alt="Logo" class="logo">
 
     <h1>Bem-vindo(a) a farmácia SanusVita</h1>
 
