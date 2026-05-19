@@ -91,3 +91,19 @@ input{
     border: 1px solid #ccc; 
     border-radius: 8px; 
 }
+
+button{ 
+    background-color: #2e7d32; 
+    color: white; 
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+} 
+
+button:hover{ 
+    background-color: #256428;
+ }
+
+ 
