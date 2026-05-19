@@ -20,6 +20,18 @@ header{
     border-bottom: 4px solid #c8a2ff;
     position: relative;
  } 
+
+ .logo{
+
+    width: 70px;
+
+    position: absolute;
+
+    top: 10px;
+
+    left: 20px;
+
+}
  
  header h1{ 
     color: #8e44ad; 
