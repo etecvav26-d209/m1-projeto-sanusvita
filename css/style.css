@@ -46,3 +46,14 @@ nav a{
     background-color: #2e7d32; 
 }
 
+main{ 
+    flex: 1; 
+    padding: 30px; 
+} 
+
+main h2{ 
+    color: #8e44ad; 
+    margin-bottom: 25px; 
+    text-align: center; 
+}
+
