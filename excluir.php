@@ -18,8 +18,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
      if($stmt->rowCount() > 0){
 
-        echo "Produto excluído com sucesso!";
-
+          header("Location: index.php");
+    exit;
+    
     } else {
 
         echo "Produto não encontrado.";
