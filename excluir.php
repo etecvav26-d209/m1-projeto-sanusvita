@@ -1,6 +1,7 @@
 <?php
 
 require_once 'config/conexao.php';
+include 'includes/header.php';
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
@@ -20,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
           header("Location: index.php");
     exit;
-    
+
     } else {
 
         echo "Produto não encontrado.";
