@@ -76,3 +76,10 @@ main h2{
          margin-bottom: 10px; 
     } 
     
+form{ 
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 12px; 
+    border: 2px solid #c8a2ff; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+}
