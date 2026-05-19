@@ -29,4 +29,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
 }
+
+include 'includes/footer.php';
 ?>
