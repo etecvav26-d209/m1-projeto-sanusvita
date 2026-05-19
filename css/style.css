@@ -25,3 +25,24 @@ header{
     margin-bottom: 20px; 
     font-size: 32px; 
 }
+
+nav{ 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+} 
+
+nav a{ 
+    text-decoration: none; 
+    background-color: #c8a2ff; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    font-weight: bold; 
+    transition: 0.3s;
+ } 
+ 
+ nav a:hover{ 
+    background-color: #2e7d32; 
+}
+
