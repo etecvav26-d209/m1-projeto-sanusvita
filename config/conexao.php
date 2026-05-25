@@ -1,7 +1,7 @@
 <?php
 
 $servidor = "localhost";
-$banco = "farm_sanusvita";
+$banco = "database";
 $usuario = "root";
 $senha = "";
 
